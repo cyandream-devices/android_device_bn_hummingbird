@@ -18,7 +18,7 @@ TARGET_SCREEN_WIDTH := 1440
 TARGET_SCREEN_HEIGHT := 900
 
 # Inherit some common CM stuff.
-$(call inherit-product, vendor/cm/config/common_full_tablet_wifionly.mk)
+$(call inherit-product, vendor/cyandream/config/common_full_tablet_wifionly.mk)
 
 # Inherit device configuration for hummingbird
 $(call inherit-product, device/bn/hummingbird/full_hummingbird.mk)
@@ -27,7 +27,7 @@ $(call inherit-product, device/bn/common/cm.mk)
 # Device overlay
 DEVICE_PACKAGE_OVERLAYS += device/bn/hummingbird/overlay/cm
 
-PRODUCT_NAME := cm_hummingbird
+PRODUCT_NAME := cd_hummingbird
 PRODUCT_DEVICE := hummingbird
 PRODUCT_BRAND := Android
 PRODUCT_MODEL := BN Nook HD
